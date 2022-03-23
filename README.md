@@ -1,6 +1,6 @@
 # Twig
 
-This package adds Twig template engine support for Themosis.
+This package adds the Twig template engine support for Themosis.
 
 ## Installation
 
