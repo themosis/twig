@@ -1,0 +1,30 @@
+{
+  "name": "themosis/twig",
+  "description": "Twig template engine support for Themosis",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Julien Lambé",
+      "email": "julien@themosis.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.5",
+    "illuminate/view": "^9.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Themosis\\Twig\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Themosis\\Twig\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
