@@ -1,0 +1,11 @@
+<div>
+    <h2>{{ company.name }}</h2>
+    <h3>The People</h3>
+    <ul>
+        {% for person in people %}
+            <li>
+                <p>{{ person.name }}<span>{{ person.role }}</span></p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

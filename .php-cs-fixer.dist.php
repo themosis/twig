@@ -4,6 +4,10 @@ $finder = PhpCsFixer\Finder::create()
     ->in([
         'src',
         'tests',
+    ])
+    ->exclude([
+        'tests/cache',
+        'tests/views',
     ]);
 
 $config = new PhpCsFixer\Config();
