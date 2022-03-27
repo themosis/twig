@@ -1,6 +1,6 @@
 {
   "name": "themosis/twig",
-  "description": "Twig template engine support for Themosis",
+  "description": "Twig template engine support for Themosis.",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
