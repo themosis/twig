@@ -40,7 +40,7 @@ class TwigServiceProvider extends ServiceProvider
             $twig = new Environment(
                 $app['twig.loader'],
                 [
-                    'auto_reload' => true,
+                    'auto_reload' => $app['config']['twig.auto_reload'],
                     'cache' => $app['config']['twig.cache'],
                     'debug' => $app['config']['twig.debug'],
                     'strict_variables' => $app['config']['twig.strict_variables']
